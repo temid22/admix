@@ -1,0 +1,72 @@
+.newUser{
+  display: flex;
+  width: 100%;
+}
+.newUserContainer{
+  flex: 6;
+}
+
+.newNewUser {
+    margin-left: 20px;
+  }
+  
+  .addNewUserForm {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .addNewUserItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  .addNewUserItem > label {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+  }
+  
+  .addNewUserItem > input {
+    height: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid purple;
+    border-radius: 50px;
+    outline: none;
+    box-shadow: -3px 4px 4px 5px rgba(207,245,238,0.27);
+-webkit-box-shadow: -3px 4px 4px 5px rgba(207,245,238,0.27);
+-moz-box-shadow: -3px 4px 4px 5px rgba(207,245,238,0.27);
+  }
+  .addNewUserItem > select {
+    height: 40px;
+    width: 50px;
+    border: none;
+    border-radius: 50px;
+    border-bottom: 1px solid purple;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .addNewUserButton {
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color:rgb(81, 0, 139);
+    color: #999;
+    padding: 7px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+  .addNewUserButton:hover{
+    background-color: rgb(81, 0, 139);
+    color: #fff;
+    transition: 0.5s ease;
+  }

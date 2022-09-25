@@ -1,0 +1,15 @@
+.span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+input:invalid[focused="true"]{
+    border: 2px solid red;
+    transition: ease 1s;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}

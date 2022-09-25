@@ -1,0 +1,13 @@
+.list {
+    display: flex;
+    width: 100%;
+    .listContainer {
+      flex: 6;
+      @media (max-width: 900px) {
+        padding: 10px;
+       margin-top: 10px;
+       flex: 30;
+      }
+    }
+  }
+  

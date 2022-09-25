@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+  width: 100%;
+  .listContainer {
+    flex: 8;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    @media (max-width: 748px) {
+    flex: 30;
+    }
+  }
+}
