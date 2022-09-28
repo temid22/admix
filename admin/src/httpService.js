@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/";
+axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
 
 // const user = JSON.parse(localStorage.getItem("persist:root"))?.user;
 // const currentUser = user && JSON.parse(user).currentUser;
