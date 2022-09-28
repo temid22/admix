@@ -25,6 +25,7 @@
     "recharts": "^2.1.9",
     "redux-persist": "^6.0.0",
     "sass": "^1.49.9",
+    "serve": "^14.0.1",
     "timeago.js": "^4.0.2",
     "web-vitals": "^2.1.4"
   },
